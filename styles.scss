@@ -1,0 +1,142 @@
+html,
+body,
+div,
+span,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+img,
+ol,
+ul,
+li,
+input,
+label,
+select,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+footer,
+header,
+menu,
+nav,
+section,
+video {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+        "Arial", sans-serif;
+    padding: 2rem 2rem;
+    background-color: #ac45b8;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 1.85rem;
+}
+
+p,
+a,
+div {
+    font-size: 2rem;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.15rem;
+}
+
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.bubble {
+    background-color: rgb(131, 222, 270);
+    border-radius: 1rem;
+
+    padding: 2rem;
+    margin-bottom: 2rem;
+
+    max-width: 49ch;
+}
+
+.bubble__date {
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.bubble--header {
+    text-align: center;
+
+    & h1 {
+        margin: 1rem 0 0;
+    }
+}
+
+.bubble--post {
+    max-width: 35.5ch;
+
+    & h2 {
+        margin: 2rem 0;
+    }
+
+    & p {
+        max-width: 49ch;
+    }
+
+    & p:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+
+    & div {
+        position: relative;
+
+        & p:first-child {
+            margin-bottom: 0;
+        }
+        & p:not(:first-child) {
+            margin-top: 0;
+        }
+    }
+}
+
+.github-link {
+    width: 100%;
+    text-align: center;
+
+    & a {
+        color: #e9f9ff;
+
+        display: inline-grid;
+        place-items: center;
+
+        &:hover,
+        &:active {
+            color: #f2db27;
+        }
+    }
+}
