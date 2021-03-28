@@ -17,7 +17,7 @@ export default function HomePage() {
                         <h2>PEP founded!</h2>
                         <p>
                             Today, we founded the Protect Everyone Party (PEP)
-                            🎉
+                            🎉🎉
                         </p>
                         <div>
                             <p>
